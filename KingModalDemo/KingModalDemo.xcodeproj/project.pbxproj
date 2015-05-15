@@ -11,8 +11,8 @@
 		961382D31B06480300A227E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 961382D21B06480300A227E7 /* Images.xcassets */; };
 		961382D61B06480300A227E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 961382D41B06480300A227E7 /* LaunchScreen.xib */; };
 		961382E21B06480300A227E7 /* KingModalDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961382E11B06480300A227E7 /* KingModalDemoTests.swift */; };
-		961383161B06498F00A227E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961383141B06498F00A227E7 /* ViewController.swift */; };
-		961383171B06498F00A227E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961383151B06498F00A227E7 /* Main.storyboard */; };
+		961383191B0656A700A227E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961383181B0656A700A227E7 /* ViewController.swift */; };
+		9613831B1B0656C200A227E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9613831A1B0656C200A227E7 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +34,8 @@
 		961382DB1B06480300A227E7 /* KingModalDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KingModalDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		961382E01B06480300A227E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		961382E11B06480300A227E7 /* KingModalDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingModalDemoTests.swift; sourceTree = "<group>"; };
-		961383141B06498F00A227E7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		961383151B06498F00A227E7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		961383181B0656A700A227E7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9613831A1B0656C200A227E7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				961382CB1B06480300A227E7 /* AppDelegate.swift */,
-				961383141B06498F00A227E7 /* ViewController.swift */,
-				961383151B06498F00A227E7 /* Main.storyboard */,
+				961383181B0656A700A227E7 /* ViewController.swift */,
+				9613831A1B0656C200A227E7 /* Main.storyboard */,
 				961382D21B06480300A227E7 /* Images.xcassets */,
 				961382D41B06480300A227E7 /* LaunchScreen.xib */,
 				961382C91B06480300A227E7 /* Supporting Files */,
@@ -192,7 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				961383171B06498F00A227E7 /* Main.storyboard in Resources */,
+				9613831B1B0656C200A227E7 /* Main.storyboard in Resources */,
 				961382D61B06480300A227E7 /* LaunchScreen.xib in Resources */,
 				961382D31B06480300A227E7 /* Images.xcassets in Resources */,
 			);
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				961383161B06498F00A227E7 /* ViewController.swift in Sources */,
+				961383191B0656A700A227E7 /* ViewController.swift in Sources */,
 				961382CC1B06480300A227E7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,6 +401,7 @@
 				961382E71B06480300A227E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		961382E81B06480300A227E7 /* Build configuration list for PBXNativeTarget "KingModalDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +410,7 @@
 				961382EA1B06480300A227E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

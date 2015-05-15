@@ -8,8 +8,10 @@
 
 import UIKit
 
+//public typealias animationAppearBlock = (view: UIView)->(NSTimeInterval)
+//public typealias animationDisappearBlock = (view: UIView)->(NSTimeInterval)
 ///  转场动画代理
-public var popoverAnimatorDelegate : PopoverAnimator?
+private var popoverAnimatorDelegate : PopoverAnimator?
 //MARK: - UIViewController的分类，提供了转场动画的自定义方法
 public extension UIViewController {
     /**
@@ -27,12 +29,13 @@ public extension UIViewController {
     
     :param: completion              完成跳转的回调代码
     */
-    public func pm_presentViewController(#viewControllerToPresent: UIViewController,
-        showFrame : CGRect,
-        animationAppearBlock:(view: UIView)->(NSTimeInterval),
-        animationDisappearBlock:(view: UIView)->(NSTimeInterval),
-        completion: (() -> Void)?) {
-            
+    public func pm_presentViewController(
+                 #viewControllerToPresent: UIViewController,
+                                showFrame: CGRect,
+                     animationAppearBlock:(view: UIView)->(NSTimeInterval),
+                  animationDisappearBlock:(view: UIView)->(NSTimeInterval),
+                               completion: (() -> Void)?)
+    {
             popoverAnimatorDelegate = PopoverAnimator()
             // 设置转场动画代理
             viewControllerToPresent.transitioningDelegate = popoverAnimatorDelegate

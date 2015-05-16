@@ -415,6 +415,7 @@
 				9613830D1B06481700A227E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9613830E1B06481700A227E7 /* Build configuration list for PBXNativeTarget "KingModalTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +424,7 @@
 				961383101B06481700A227E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

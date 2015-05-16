@@ -25,6 +25,18 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9613831F1B0659FD00A227E7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		961382C61B06480300A227E7 /* KingModalDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KingModalDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		961382CA1B06480300A227E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -122,6 +134,7 @@
 				961382C21B06480300A227E7 /* Sources */,
 				961382C31B06480300A227E7 /* Frameworks */,
 				961382C41B06480300A227E7 /* Resources */,
+				9613831F1B0659FD00A227E7 /* CopyFiles */,
 			);
 			buildRules = (
 			);

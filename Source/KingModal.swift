@@ -32,8 +32,8 @@ public extension UIViewController {
     public func pm_presentViewController(
                  #viewControllerToPresent: UIViewController,
                                 showFrame: CGRect,
-                     animationAppearBlock:(view: UIView)->(NSTimeInterval),
-                  animationDisappearBlock:(view: UIView)->(NSTimeInterval),
+                     animationAppearBlock: (view: UIView)->(NSTimeInterval),
+                  animationDisappearBlock: (view: UIView)->(NSTimeInterval),
                                completion: (() -> Void)?)
     {
             popoverAnimatorDelegate = PopoverAnimator()

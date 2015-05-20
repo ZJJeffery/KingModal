@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9608BEB31B0CDAA200582077 /* KingModal.swift in Frameworks */ = {isa = PBXBuildFile; fileRef = 961383121B06491B00A227E7 /* KingModal.swift */; };
 		961382FB1B06481700A227E7 /* KingModal.h in Headers */ = {isa = PBXBuildFile; fileRef = 961382FA1B06481700A227E7 /* KingModal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		961383011B06481700A227E7 /* KingModal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 961382F51B06481700A227E7 /* KingModal.framework */; };
 		961383081B06481700A227E7 /* KingModalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961383071B06481700A227E7 /* KingModalTests.swift */; };
@@ -38,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9608BEB31B0CDAA200582077 /* KingModal.swift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9608BEB51B0CDAE600582077 /* KingModal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9608BEB41B0CDAE600582077 /* KingModal.framework */; };
 		961382CC1B06480300A227E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961382CB1B06480300A227E7 /* AppDelegate.swift */; };
 		961382D31B06480300A227E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 961382D21B06480300A227E7 /* Images.xcassets */; };
 		961382D61B06480300A227E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 961382D41B06480300A227E7 /* LaunchScreen.xib */; };
@@ -38,6 +39,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9608BEB41B0CDAE600582077 /* KingModal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KingModal.framework; path = "../KingModal/build/Debug-iphoneos/KingModal.framework"; sourceTree = "<group>"; };
 		961382C61B06480300A227E7 /* KingModalDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KingModalDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		961382CA1B06480300A227E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		961382CB1B06480300A227E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9608BEB51B0CDAE600582077 /* KingModal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +74,7 @@
 		961382BD1B06480300A227E7 = {
 			isa = PBXGroup;
 			children = (
+				9608BEB41B0CDAE600582077 /* KingModal.framework */,
 				961382C81B06480300A227E7 /* KingModalDemo */,
 				961382DE1B06480300A227E7 /* KingModalDemoTests */,
 				961382C71B06480300A227E7 /* Products */,
@@ -345,6 +349,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/XM/Desktop/黑马资料/练习代码/自己框架/KingModal/KingModal/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = KingModalDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,6 +363,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/XM/Desktop/黑马资料/练习代码/自己框架/KingModal/KingModal/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = KingModalDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
